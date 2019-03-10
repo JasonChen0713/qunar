@@ -1,0 +1,409 @@
+.call{
+    float:left;
+    /*background-color: #7C0070;*/
+    color: #868686;
+    padding-left: 20px;
+    background: url("../img/icon-call.png") no-repeat center left;
+    font-size: 14px;
+}
+
+.top{
+    line-height: 30px;
+}
+
+.top a{
+    color: #2da5e1;
+    font-size: 14px;
+    /*background-color: #00B7FF;*/
+}
+.top a:nth-child(3){
+    padding-left: 35px;
+}
+.welcome{
+    float: right;
+    color: #868686;
+    font-size: 14px;
+    /*margin-right: 30px;*/
+}
+
+.welcome span{
+    margin-right: 20px;
+}
+
+.header .logo{
+    height: 74px;
+    width: 402px;
+    padding: 9px 0;
+    display: inline-block; /*这样才能设置a的大小*/
+    /*background-color: #4ab14e;*/
+}
+.header .logo img{
+    height: 100%;
+}
+
+.header .search{
+    height: 34px;
+    /*width: 200px;*/
+    float: right;
+    /*background-color: orange;*/
+    margin: 29px;
+    background-color: pink;
+    position: relative;
+}
+
+/*nav*/
+.nav .link{
+    display: inline-block;
+    width: 100px;
+    float: left;
+    line-height: 36px;
+    font-size: 16px;
+    text-align: center;
+    color: #ffffff;
+    padding-left: 20px;
+}
+
+.wrap .right{
+    float: right;
+}
+
+.wrap a:hover{
+    color: #d7f3ff;
+}
+
+.wrap .menu{
+    width: 140px;
+    background-color: #1fa4f0;
+    padding-right: 30px;
+    position: relative;
+}
+
+.wrap .menu-list{
+    position: absolute;
+    left: 0;
+    top: 36px;
+    background-color: #1fa4f0;
+    width: 100%;
+    height: 423px;
+}
+
+/*banner*/
+.banner .banner-search .caption{
+    /*background-color: #fec009;*/
+    height: 22px;
+    padding: 15px 0 15px 0;
+    text-align: center;
+}
+
+.banner .banner-search .caption .text{
+    display: inline-block;
+    height: 22px;
+    color: #fec009;
+    /*background-color: red;*/
+    line-height: 22px;
+    padding-left: 28px;
+    background: url("../img/icon-help.png") no-repeat 0 0;
+}
+
+.banner form{
+    height: 150px;
+    /*background-color: #4ab14e;*/
+    text-align: center;
+}
+
+.banner form .line{
+    /*background-color: #7C0070;*/
+    padding-bottom: 9px;
+}
+
+.banner form .line select{
+    font-size: 12px;
+    width: 170px;
+    height: 26px;
+    line-height: 26px;
+    z-index: 0;
+    border: 1px solid #dcdddd;
+    padding: 2px 0;
+    color: #666666;
+}
+
+.banner .submit{
+    height: 32px;
+    text-align: center;
+    /*background-color: #7C0070;*/
+}
+
+.banner .submit input{
+    width: 108px;
+    background-color: #fecd09;
+    height: 33px;
+    line-height: 33px;
+    font-size: 14px;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.banner .banner-help .caption{
+    /*这里有个坑span的padding会被覆盖？*/
+    height: 22px;
+    padding: 15px 0 15px 0;
+    text-align: center;
+}
+
+.banner .caption .text{
+    display: inline-block;
+    height: 22px;
+    color: #00B7FF;
+    /*background-color: red;*/
+    line-height: 22px;
+    padding-left: 28px;
+    background: url("../img/icon-help.png") no-repeat 0 -23px;
+    position: relative;
+}
+
+.banner .banner-help .line{
+    background-color: #efefef;
+    height: 94px;
+    width: 250px;
+}
+.banner .banner-help .line a{
+    display: inline-block;
+    float: left;
+    height: 20px;
+    width: 81px;
+    /*background-color: #ffffff;*/
+    padding: 7px 22px;
+    text-align: center;
+    color: #00B7FF;
+    font-size: 14px;
+}
+
+.banner .banner-slider{
+    position: relative;
+    overflow: hidden;
+}
+.banner .banner-slider .slider{
+    height: 414px;
+    width: 544px;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner .banner-slider .slider li{
+    position: absolute;
+}
+
+.banner .banner-slider .points-item{
+    float: left;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #bbbbbb;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.banner .banner-slider .points{
+    position: absolute;
+    bottom: 8px;
+    left: 212px;
+}
+
+/*想要覆盖原来的格式，必须权重相等*/
+.banner .banner-slider .active-points{
+    background-color: #00B7FF;
+    height: 11px;
+    width: 11px;
+    border-radius: 50%;
+}
+
+.banner .banner-slider .arrow_con .arrow_left{
+    position: absolute;
+    top: 187px;
+    left: 20px;
+}
+
+.banner .banner-slider .arrow_con .arrow_right{
+    position: absolute;
+    top: 187px;
+    right: 20px;
+}
+
+
+/*content*/
+
+.content .content-news .caption, .content .content-close .caption{
+    height: 22px;
+    padding: 15px 0 15px 0;
+    text-align: left;
+    background-color: #efefef;
+}
+
+.content .content-news .caption .text, .content .content-close .caption .text{
+    display: inline-block;
+    height: 22px;
+    color: #fec009;
+    line-height: 22px;
+    padding-left: 30px;
+}
+
+.content .content-news .caption a, .content .content-close .caption a{
+    display: inline-block;
+    /*background-color: #00B7FF;*/
+    height: 22px;
+    line-height: 22px;
+    float: right;
+    font-size: 12px;
+    padding-right: 10px;
+}
+
+.content .content-news .caption a:hover{
+    color: red;
+}
+
+.content .content-close .caption a:hover{
+    color: red;
+}
+
+.content .content-news .list{
+    background: url("../img/list-yellow.jpg") no-repeat 11px 14px;
+}
+
+.content .content-close .list{
+    background: url("../img/list-blue.jpg") no-repeat 11px 14px;
+}
+
+.content .content-news .list li a, .content .content-close .list li a{
+    display: inline-block;
+    /*background-color: #00B7FF;*/
+    font-size: 12px;
+    margin-top: 12px;
+    color: #666;
+    padding-left: 35px;
+}
+
+.content .content-tab .caption {
+    background-color: #efefef;
+    height: 35px;
+}
+
+.content .content-tab .caption .item{
+    float: left;
+    color: #5bc0de;
+    width: 112px;
+    height: 34px;
+    text-align: center;
+    line-height: 34px;
+}
+
+.content .content-tab .caption .active{
+    background-color: #5bc0de;
+    color: #ffffff;
+}
+/*tab-block*/
+
+.block{
+    border: 1px solid #efefef;
+}
+.content .content-tab .block .block-tag .item-tab{
+    float: left;
+    padding: 0 10px 0 10px;
+    line-height: 26px;
+    font-size: 12px;
+    color: #666666;
+    cursor: pointer;
+}
+.content .content-tab .block .block-tag .active{
+    background-color: #5bc0de;
+    color: #ffffff;
+}
+
+
+.content .content-tab .block .block-content{
+    /*background-color: #5bc0de;*/
+    border: 1px solid #bbbbbb;
+    width: 738px;
+    height: 426px;
+}
+
+.content .content-tab .block .block-content .block-content-list{
+    padding: 16px 12px;
+    /*background-color: red;*/
+}
+
+.content .content-tab .block .block-content .block-content-list li{
+    float: left;
+    width: 216px;
+    height: 102px;
+    padding: 0 20px 10px 120px;
+    position: relative;
+    font-size: 12px;
+    /*background-color: yellow;*/
+}
+
+.content .content-tab .block .block-content .block-content-list li img{
+    width: 110px;
+    height: 98px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.content .content-tab .block .block-content .block-content-list li .hos-name{
+    padding-top: 13px;
+    color: #036EB7;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.content .content-tab .block .block-content .block-content-list li .hos-name span{
+    float: right;
+}
+
+.content .content-tab .block .block-content .block-content-list li .call-1,
+.content .content-tab .block .block-content .block-content-list li .call-2
+{
+    text-indent: -3em;
+    padding-left: 3em;
+    margin: 6px 0;
+}
+
+.content .content-tab .block .block-content .block-text-list{
+    padding-left: 15px;
+}
+
+.content .content-tab .block .block-content .block-text-list .block-text-item {
+    width: 351px;
+    height: 27px;
+    float: left;
+    padding: 8px 0 0 10px ;
+    border-bottom: 1px dashed #dcdddd;
+}
+
+.content .content-tab .block .block-content .block-text-list .block-text-item a,
+.content .content-tab .block .block-content .block-text-list .block-text-item span{
+    line-height: 27px;
+    color: #666;
+    font-size: 12px;
+}
+
+.content .content-tab .block .block-content .block-text-list .block-text-item a{
+     float: left;
+}
+
+.content .content-tab .block .block-content .block-text-list .block-text-item span{
+    float: right;
+    padding-right: 20px;
+}
+
+.content .content-tab .bottom{
+    display: block;
+    line-height: 55px;
+    text-align: center;
+    font-size: 14px;
+    padding: 7px 0;
+}
+.content .content-tab .bottom a{
+    color: #5084C4;
+}
